@@ -1,0 +1,2 @@
+# CompTIA-SecurityX-Domain1.Security-Architecture
+Detailed reference notes for Domain 1 (28% of exam) of CompTIA SecurityX (CAS-005). Covers governance hierarchies, frameworks (DoDD 8000.01, RMF, NIST 800-53/171, DFARS, STIGs), Zero Trust, risk management, threat modeling, compliance, and AI challenges. From NIST, DoD &amp; DISA sources. Maintained by Cree Dalene, Senior Security Architect (CASP+).
