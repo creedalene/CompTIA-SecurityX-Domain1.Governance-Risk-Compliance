@@ -244,7 +244,7 @@ The DoD integrates rigorous change and configuration management into RMF. DoD or
 
 ---
 
-### Governance Risk and Compliance (GRC) Tools
+### Governance, Risk, and Compliance (GRC) Tools
 
 Security architects leverage GRC tools to streamline oversight, reduce manual effort, and maintain continuous alignment with policies and regulations. These platforms integrate multiple capabilities into a unified system.
 
