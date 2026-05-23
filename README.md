@@ -5,7 +5,7 @@ The notes are maintained by Cree Dalene, a Senior Cybersecurity Assessor and Eng
 The content strives to provide clear, structured coverage of core governance and architecture topics, including:
 
 * Security program documentation and the governance hierarchy: Policies, Standards, Procedures, and Guidelines, along with their respective authority levels and applications
-* Key DoD cybersecurity frameworks: DoDD 8000.01, DoDI 8500.01, DoDI 8510.01 (Risk Management Framework), NIST SP 800-53, NIST SP 800-171, DFARS 252.204-7012, DISA STIGs, and CJCSM 6510.01B
+* Key Department of Defense (DoD) cybersecurity frameworks: DoDD 8000.01, DoDI 8500.01, DoDI 8510.01 (Risk Management Framework), NIST SP 800-53, NIST SP 800-171, DFARS 252.204-7012, DISA STIGs, and CJCSM 6510.01B
 * Zero Trust Architecture principles based on NIST SP 800-207 and the DoD Zero Trust Reference Architecture, including considerations for SASE and hybrid cloud environments
 * Risk management activities: Impact analysis, risk assessment, third-party risk, availability/confidentiality/integrity/privacy risk considerations, crisis management, and breach response
 * Additional areas such as threat modeling, attack surface determination, compliance strategies, change and configuration management, RACI matrices, and information security challenges associated with artificial intelligence adoption (legal/privacy implications, AI-enabled attacks, and related risks)
@@ -13,6 +13,7 @@ The content strives to provide clear, structured coverage of core governance and
 All sections reference primary authoritative sources including official NIST publications, DoD Directives and Instructions, and DISA resources. Comparison tables, governance pyramids, and scenario-based explanations are used to illustrate how these components work together in practical security architecture and engineering decisions.
 
 > For purposes of maintaining the current legal structure, I will be using the term Department of Defense (DoD) throughout. There are efforts to codify Executive Order 14347 (5 Sep 2025), but until Congress officially changes the name, Department of War (DoW) only applies to public communications within the Executive Branch, ceremonial contexts, and non-statutory documents.
+> 
 > As it currently stands, DoW only applies to pre-1947 documentation, and is not presently relevant. I am aware that this could change should the vote pass in Congress to codify and implement the legal name change. So while DoD and DoW can be used interchangably, I will use DoD for this certification context.
 
 ---
@@ -44,7 +45,7 @@ Senior management (CIO/CISO) issues policies as high-level statements of intent.
 * **CompTIA Example:** Acceptable Use Policy (AUP) or Information Security Policy.
 * **Core Logic:** "The organization protects all CUI data using industry-standard encryption."
 
-In the Department of War/Defense policies define the "what" and "why" behind executive decisions. These DoD Directives (DoDD) and Instructions (DoDI) clearly communicates the mission, and directs all subsequent standards and procedures. Some examples might include:
+In the DoD policies define the "what" and "why" behind executive decisions. These DoD Directives (DoDD) and Instructions (DoDI) clearly communicates the mission, and directs all subsequent standards and procedures. Some examples might include:
 
 * **DoDD 8000.01: Management of the DoD Information Enterprise** directs DoD organizations to manage information as a strategic asset, ensuring it remains secure, available, and interoperable for the warfighter. This foundational directive establishes policy and assigns responsibilities for all information resources management activities across the DoD.
 * **DoDI 8500.01 Cybersecurity** shifts the DoD from a compliance-focused Information Assurance model to a dynamic Cybersecurity model that emphasizes continuous monitoring, risk management, and integration of cybersecurity into the systems engineering lifecycle. This instruction establishes the overarching DoD cybersecurity program to protect and defend DoD information and IT systems.
@@ -58,7 +59,7 @@ Senior leadership defines standards as specific technical requirements and hardw
 * **CompTIA Example:** "All laptops must use AES-256 bit encryption for data at rest."
 * **Core Logic:** "If the policy requires encryption, the organization must use this exact algorithm."
 
-In the Department of Defense, standards specify the “how” behind policy requirements. The DoD adopts external frameworks and internal instructions as mandatory standards. Key examples include:
+In the DoD, standards specify the “how” behind policy requirements. The DoD adopts external frameworks and internal instructions as mandatory standards. Key examples include:
 
 * **DoDI 8510.01: Risk Management Framework (RMF) for DoD Information Technology (IT)** establishes the Risk Management Framework (RMF) process for the DoD. This standard mandates the exact lifecycle for authorizing IT systems on DoD networks, replaces the old DIACAP system, and ties directly to NIST SP 800-37 and 800-53.
 * **NIST Special Publications (SP 800-53 and SP 800-171)** serve as mandatory standards for the DoD. NIST SP 800-53 provides the catalog of security and privacy controls for federal information systems, while NIST SP 800-171 mandates protection requirements for defense contractors handling CUI on non-federal systems.
@@ -72,7 +73,7 @@ Senior leadership and technical teams create procedures, also known as Standard 
 * **CompTIA Example:** The Incident Response Procedure directs teams to identify the breach, isolate the host, and notify the SOC Lead.
 * **Core Logic:** "Follow these exact steps in this exact order to isolate the host."
 
-In the Department of Defense, procedures provide the detailed execution guidance that turns policy and standards into action. The DoD maintains several key procedural frameworks and execution guides. Important examples include:
+In the DoD, procedures provide the detailed execution guidance that turns policy and standards into action. The DoD maintains several key procedural frameworks and execution guides. Important examples include:
 
 * **DISA STIGs (Security Technical Implementation Guides)** serve as the primary step-by-step procedures for securing software, hardware, and networks. Developed by the Defense Information Systems Agency (DISA), STIGs function as exhaustive, product-specific checklists (e.g., Windows Server 2022 STIG, Cisco IOS Router STIG). Each STIG organizes actionable rules by severity: Category I (CAT I) for immediate high-severity actions, Category II (CAT II) for medium-severity requirements, and Category III (CAT III) for lower-priority baseline enhancements. `https://www.cyber.mil/stigs`
 * **CJCSM 6510.01B: Cyber Incident Handling Program** delivers exact tactical procedures for responding to network intrusions, data breaches, and insider threats. This manual establishes a mandatory pipeline that includes triage, categorization, isolation and containment, and timely reporting to USCYBERCOM and JFHQ-DODIN. `https://www.jcs.mil/Library/` 
@@ -91,7 +92,7 @@ Senior leadership and architects issue guidelines as suggested actions and best 
 
 > CompTIA's example of 15 characters being a guideline is laughable here, it should be updated, as that's actually a STIG required in the DoD/W.
 
-In the Department of Defense, guidelines appear as Reference Architectures (RA), Reference Designs (RD), or Information Guides. These discretionary documents help organizations implement policies and standards effectively. Key examples include:
+In the DoD, guidelines appear as Reference Architectures (RA), Reference Designs (RD), or Information Guides. These discretionary documents help organizations implement policies and standards effectively. Key examples include:
 
 * **DoD Zero Trust Reference Architecture (ZT RA)** serves as the primary guidance document for transitioning to zero-trust models. It outlines the 7 Zero Trust Pillars (Identity, Devices, Network, Applications, Data, Visibility/Analytics, Automation/Orchestration) and supplies design patterns without mandating specific tools or commands. This architecture guides mission owners away from traditional perimeter-based defense toward dynamic, data-centric security.
 * **DoD ICAM Reference Design (Identity, Credential, & Access Management)** delivers design guidance for modernizing identity management across the enterprise. It establishes blueprints for secure multi-factor authentication (MFA) and non-person entity (NPE) credentialing to address challenges in tactical environments.
@@ -162,7 +163,7 @@ Teams use a Responsible, Accountable, Consulted, and Informed (RACI) matrix to c
 
 #### 🛡️ Security Program Management in DoD Environments
 
-The Department of Defense integrates these management elements into formal programs to maintain readiness and compliance. Leadership enforces mandatory annual security awareness training, implements structured incident reporting through defined channels, and maintains visible command-level commitment to cybersecurity. DoD organizations frequently use RACI matrices within RMF packages and system security plans to ensure clear accountability across commands, contractors, and support teams.
+The DoD integrates these management elements into formal programs to maintain readiness and compliance. Leadership enforces mandatory annual security awareness training, implements structured incident reporting through defined channels, and maintains visible command-level commitment to cybersecurity. DoD organizations frequently use RACI matrices within RMF packages and system security plans to ensure clear accountability across commands, contractors, and support teams.
 
 > **Notes for DoD candidates:**
 > - In DoD environments, the **Authorizing Official (AO)** typically remains **Accountable** for authorization decisions and risk acceptance.
@@ -201,7 +202,7 @@ ITIL promotes continual improvement and strong alignment between IT services and
 
 #### 🛡️ Governance Frameworks in DoD and Enterprise Environments
 
-The Department of Defense and defense contractors frequently integrate COBIT and ITIL principles alongside RMF to strengthen governance. COBIT supports clear accountability and risk optimization in RMF documentation, while ITIL practices improve service management, incident response efficiency, and operational maturity across DoD networks.
+The DoD and defense contractors frequently integrate COBIT and ITIL principles alongside RMF to strengthen governance. COBIT supports clear accountability and risk optimization in RMF documentation, while ITIL practices improve service management, incident response efficiency, and operational maturity across DoD networks.
 
 Security architects leverage these frameworks to design robust, auditable governance structures that satisfy both commercial best practices and DoD compliance requirements.
 
