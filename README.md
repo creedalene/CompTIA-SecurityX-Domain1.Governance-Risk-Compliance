@@ -204,7 +204,7 @@ Security architects leverage these frameworks to design robust, auditable govern
 
 ---
 
-#### Change/configuration management
+### Change/configuration management
 
 Security architects establish strong change and configuration management practices to maintain system integrity, reduce risk, and ensure traceability. Effective processes control modifications while preserving an accurate view of the environment.
 
@@ -240,7 +240,7 @@ The DoD integrates rigorous change and configuration management into RMF. DoD or
 
 ---
 
-#### Governance Risk and Compliance (GRC) Tools
+### Governance Risk and Compliance (GRC) Tools
 
 Security architects leverage GRC tools to streamline oversight, reduce manual effort, and maintain continuous alignment with policies and regulations. These platforms integrate multiple capabilities into a unified system.
 
