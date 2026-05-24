@@ -1,8 +1,28 @@
-# Security X Domain 1.1: Implementing Governance Components
+# SecurityX (CAS-005) Domain 1.1: Governance Components
 
 **Given a set of organizational security requirements, implement the appropriate governance components.**
 
-## Security program documentation
+## 📋 Table of Contents
+
+- [Security Program Documentation](#security-program-documentation)
+- [The Governance Hierarchy](#the-governance-hierarchy)
+- [Detailed Breakdown](#detailed-breakdown)
+- [Practical Application: The "Data Breach" Scenario](#practical-application-the-data-breach-scenario)
+- [Security Program Management](#security-program-management)
+- [Security Program Management in DoD Environments](#security-program-management-in-dod-environments)
+- [Governance Frameworks](#governance-frameworks)
+- [Governance Frameworks Comparison](#governance-frameworks-comparison)
+- [Governance Frameworks in DoD and Enterprise Environments](#governance-frameworks-in-dod-and-enterprise-environments)
+- [Change and Configuration Management](#change-and-configuration-management)
+- [Change and Configuration Management in DoD Environments](#change-and-configuration-management-in-dod-environments)
+- [Governance, Risk, and Compliance (GRC) Tools](#governance-risk-and-compliance-grc-tools)
+- [GRC Tools in DoD Environments](#grc-tools-in-dod-environments)
+- [Data Governance in Staging Environments](#data-governance-in-staging-environments)
+- [Data Governance in DoD Environments](#data-governance-in-dod-environments)
+
+---
+
+## Security Program Documentation
 
 ### 🏛️ The Governance Hierarchy
 
@@ -94,7 +114,7 @@ When applying this to the SecurityX exam, it's helpful to think through a scenar
 
 ---
 
-## Security program management
+## Security Program Management
 
 Senior leaders build effective security programs through structured awareness initiatives, clear communication channels, robust reporting mechanisms, and strong management commitment. These elements ensure the organization translates policy into consistent daily practice.
 
@@ -197,7 +217,7 @@ Security architects leverage these frameworks to design robust, auditable govern
 
 ---
 
-## Change/configuration management
+## Change and Configuration Management
 
 Security architects establish strong change and configuration management practices to maintain system integrity, reduce risk, and ensure traceability. Effective processes control modifications while preserving an accurate view of the environment.
 
@@ -264,7 +284,7 @@ The DoD integrates GRC capabilities directly into the RMF lifecycle through plat
 
 ---
 
-## Data governance in staging environments
+## Data Governance in Staging Environments
 
 Security architects implement strong data governance practices across all environments to protect sensitive information, maintain data quality, and ensure compliance throughout the system development lifecycle. Proper governance prevents data leakage and supports secure transitions between environments.
 
@@ -291,5 +311,3 @@ Organizations manage data according to a structured life cycle that includes cre
 ### 🛡️ Data Governance in DoD Environments
 
 The DoD applies stringent data governance across all environments under the RMF and CUI policies. DoD organizations enforce strict data handling requirements in production, development, testing, and staging environments, with particular emphasis on proper marking, protection, and destruction of CUI and classified data throughout the entire data life cycle.
-
----
