@@ -1,4 +1,4 @@
-# SecurityX (CAS-005) Domain 1.5: Information Security Challenges with Artificial Intelligence (AI) Adoption
+# SecurityX (CAS-005) Domain 1.5: Artificial Intelligence (AI) Adoption Challenges
 
 **Summarize the information security challenges associated with artificial intelligence (AI) adoption.**
 
