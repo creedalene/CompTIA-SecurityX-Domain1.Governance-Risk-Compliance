@@ -311,3 +311,7 @@ Organizations manage data according to a structured life cycle that includes cre
 ### 🛡️ Data Governance in DoD Environments
 
 The DoD applies stringent data governance across all environments under the RMF and CUI policies. DoD organizations enforce strict data handling requirements in production, development, testing, and staging environments, with particular emphasis on proper marking, protection, and destruction of CUI and classified data throughout the entire data life cycle.
+
+---
+
+*This document will be expanded with diagrams, templates, and labs in future revisions.*
