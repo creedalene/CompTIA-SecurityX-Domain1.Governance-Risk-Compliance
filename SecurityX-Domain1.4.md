@@ -151,3 +151,4 @@ The DoD integrates threat modeling throughout the **Risk Management Framework (R
 
 ---
 
+*This document is a living set of notes, and there will be future revisions.*
