@@ -1,4 +1,6 @@
-# 1.1 Given a set of organizational security requirements, implement the appropriate governance components.
+# Security X Domain 1.1
+
+**Given a set of organizational security requirements, implement the appropriate governance components.**
 
 ## Security program documentation
 
@@ -15,9 +17,9 @@ CompTIA views these documents as a pyramid. Each layer becomes more specific as 
 
 ---
 
-#### 🔍 Detailed Breakdown
+### 🔍 Detailed Breakdown
 
-##### 1. Policy (The Foundation) 📜
+**1. Policy (The Foundation) 📜**
 
 Senior management (CIO/CISO) issues policies as high-level statements of intent. These documents avoid technical details and establish the official "law of the land."
 
@@ -31,7 +33,7 @@ In the DoD, policies define the "what" and "why" behind executive decisions. The
 * **DoDI 8500.01 Cybersecurity** shifts the DoD from a compliance-focused Information Assurance model to a dynamic Cybersecurity model that emphasizes continuous monitoring, risk management, and integration of cybersecurity into the systems engineering lifecycle. This instruction establishes the overarching DoD cybersecurity program to protect and defend DoD information and IT systems.
 * **DoDI 5200.48: Controlled Unclassified Information (CUI)** directs the DoD and its contractors to identify, mark, safeguard, share, and destroy CUI while linking protection requirements directly to NIST standards. This policy establishes the DoD CUI Program.
 
-##### 2. Standard (The Requirement) 🛠️
+**2. Standard (The Requirement) 🛠️**
 
 Senior leadership defines standards as specific technical requirements and hardware/software specifications that fulfill policies. These documents ensure consistency and prevent configuration drift across the enterprise.
 
@@ -45,7 +47,7 @@ In the DoD, standards specify the “how” behind policy requirements. The DoD 
 * **NIST Special Publications (SP 800-53 and SP 800-171)** serve as mandatory standards for the DoD. NIST SP 800-53 provides the catalog of security and privacy controls for federal information systems, while NIST SP 800-171 mandates protection requirements for defense contractors handling CUI on non-federal systems.
 * **DFARS 252.204-7012 (Safeguarding Covered Defense Information)** applies as a contractual standard to defense contractors. This clause legally requires contractors to implement NIST SP 800-171 and report cyber incidents to the DoD Cyber Crime Center (DC3) within 72 hours.
 
-##### 3. Procedure (The Steps) 📋
+**3. Procedure (The Steps) 📋**
 
 Senior leadership and technical teams create procedures, also known as Standard Operating Procedures (SOPs), as granular step-by-step instructions for specific tasks. These documents enable any qualified technician to produce consistent, repeatable results.
 
@@ -62,7 +64,7 @@ In the DoD, procedures provide the detailed execution guidance that turns policy
 
 > The CCRI framework was updated in 2025 to 3.0 and now goes by the Cyber Operations Readiness Assessment (CORA). This change hasn't been reflected in CompTIA's materials to my knowledge, but should be soon. You can learn more about it at `https://integrate.diat.mil/public`.
 
-##### 4. Guideline (The Recommendation) 💡
+**4. Guideline (The Recommendation) 💡**
 
 Senior leadership and architects issue guidelines as suggested actions and best practices. These documents offer flexibility when no strict standard or procedure applies. Guidelines represent the only non-mandatory element in the governance hierarchy.
 
